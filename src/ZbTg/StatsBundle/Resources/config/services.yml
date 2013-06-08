@@ -1,0 +1,9 @@
+parameters:
+#    zb_tg_stats.example.class: ZbTg\StatsBundle\Example
+
+services:
+#    zb_tg_stats.example:
+#        class: %zb_tg_stats.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+

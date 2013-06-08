@@ -1,0 +1,4 @@
+zb_tg_stats:
+    resource: "@ZbTgStatsBundle/Resources/config/routing.yml"
+    prefix:   /
+

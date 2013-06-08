@@ -1,0 +1,7 @@
+zb_tg_stats_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ZbTgStatsBundle:Default:index }
+    
+zb_tg_stats_user:
+    pattern: /stats/{user}
+    defaults: {_controller:ZbTgStatBundle:Default:stats}

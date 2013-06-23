@@ -63,3 +63,10 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+
+
+services:
+    kernel.listener.my_response_listener:
+        class: ZbTg\StatsBundle\EventListener\MyResponseEventListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }

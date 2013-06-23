@@ -1,0 +1,8 @@
+class_name: ApiGuy
+modules:
+    enabled: [PhpBrowser, REST, ApiHelper, Symfony2]
+    config:
+        PhpBrowser:
+            url: http://localhost:8000/app_dev.php/
+        REST:
+            url: http://localhost:8000/app_dev.php/
